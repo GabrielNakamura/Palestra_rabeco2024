@@ -424,7 +424,7 @@ knitr::include_graphics(here::here("figs", "scheme-turnover-all.png"))
 .middle[
 .center[
 ```{r, echo=FALSE, eval=TRUE, out.width="100%"}
-knitr::include_graphics(here::here("figs", "turnover-native-types.png"))
+knitr::include_graphics(here::here("figs", "NBT-turnover.png"))
 ```
 ]
 ]
@@ -435,8 +435,8 @@ knitr::include_graphics(here::here("figs", "turnover-native-types.png"))
 
 .middle[
 .center[
-```{r, echo=FALSE, eval=TRUE, out.width="100%"}
-knitr::include_graphics(here::here("figs", "map-turnover-combine2.png"))
+```{r, echo=FALSE, eval=TRUE, out.width="90%"}
+knitr::include_graphics(here::here("figs", "turnover-combined.png"))
 ```
 ]
 ]
@@ -451,7 +451,7 @@ Maps with beta diversity analysis
 .middle[
 .center[
 ```{r, echo=FALSE, eval=TRUE, out.width="100%"}
-knitr::include_graphics(here::here("figs", "model-total-nbt.png"))
+knitr::include_graphics(here::here("figs", "model-number-nbt.png"))
 ```
 ]
 ]
@@ -465,7 +465,7 @@ knitr::include_graphics(here::here("figs", "model-total-nbt.png"))
 .middle[
 .center[
 ```{r, echo=FALSE, eval=TRUE, out.width="55%"}
-knitr::include_graphics(here::here("figs", "model-turnover-nbt.png"))
+knitr::include_graphics(here::here("figs", "model-dc-dr-turnover-nbt.png"))
 ```
 ]
 ]
@@ -649,6 +649,7 @@ knitr::include_graphics(here::here("figs", "british-museum-contested.png"))
 ```
 ]
 
+
 --
 
 .center[
@@ -660,6 +661,20 @@ knitr::include_graphics(here::here("figs", "peixes-brasil.png"))
 
 ???
 Muito similar a qualquer processo de acúmulo material 
+---
+# Para saber mais
+
+.center[
+```{r, echo=FALSE, eval=TRUE, out.width="40%"}
+knitr::include_graphics(here::here("figs", "qr-code-preprint.png"))
+```
+
+```{r, echo=FALSE, eval=TRUE, out.width="80%"}
+knitr::include_graphics(here::here("figs", "preprint_ecoevo.png"))
+```
+
+]
+
 ---
 
 class: inverse, middle, center
@@ -686,20 +701,3 @@ Tiago Freitas
 Bruno Eleres
 
 Liuyoung Ding
-
----
-
-# (not so) Fun facts
-
-.pull.left[
-```{r, echo=FALSE, eval=TRUE, out.width="50%"}
-knitr::include_graphics(here::here("figs", "fun-facts-salminus.png"))
-```
-
-```{r, echo=FALSE, eval=TRUE, out.width="50%"}
-knitr::include_graphics(here::here("figs", "museum-paris.jpeg"))
-```
-
-]
-
-
