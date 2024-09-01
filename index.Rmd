@@ -1,0 +1,705 @@
+---
+title: "O quilo de Saint-Cloud e os detentores do saber"
+subtitle: "Uma história sobre macroecologia do conhecimento"
+author: "Gabriel Nakamura"
+institute: "USP | Laboratório de Macroevolução e Macroecologia"
+date: "05/09/2024 | IV RABECO | Salvador"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+background-image: url(https://verrecchiaexperience.fr/wp-content/uploads/2021/03/domaine-saint-cloud.jpg)
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+```{r xaringan-tile-view, echo=FALSE}
+xaringanExtra::use_tile_view()
+```
+
+```{r xaringan-animate-css, echo=FALSE}
+xaringanExtra::use_animate_all("fade")
+```
+
+```{r xaringan-tachyons, echo=FALSE}
+xaringanExtra::use_tachyons()
+```
+
+```{r xaringanExtra, echo = FALSE}
+xaringanExtra::use_progress_bar(color = "#0051BA", location = "top")
+```
+
+
+???
+Comuna de Saint-Cloud na França
+
+---
+class: middle
+
+.pull-left[
+.center[
+# Saint-Cloud
+
+### /sɛ̃ klu/
+]
+]
+
+.pull-right[
+```{r, eval=TRUE, echo=FALSE, out.width= "100%"}
+knitr::include_graphics(here::here("figs", "st-cloud2.png"))
+```
+]
+
+
+---
+class: inverse, center
+
+
+```{r, echo=FALSE,eval=TRUE,out.width="50%"}
+knitr::include_graphics(here::here("figs", "santos-dumond.jpeg"))
+```
+
+???
+Homenagem da Academia aérea de St-Cloud, a qual alberto santos dumond fez alguns experimentos para vôo e posteriormente recebeu a homenagem
+
+---
+class: inverse, center
+
+## Escritório Internacional de Pesos e Medidas
+
+.center[
+.middle[
+```{r, echo=FALSE,eval=TRUE,out.width="90%"}
+knitr::include_graphics(here::here("figs", "BIPM-pesos-e-medidas.jpeg"))
+```
+]
+]
+
+---
+class: inverse, center
+
+```{r eval=TRUE, echo=FALSE, out.width="60%"}
+knitr::include_graphics(here::here("figs", "prototype_kg.jpeg"))
+```
+
+---
+class: inverse, center
+
+# Le Grand K | Big K | O Grande Quilo
+
+## Protótipo do Quilograma
+
+```{r, echo=FALSE,eval=TRUE, out.width="70%"}
+knitr::include_graphics(here::here("figs", "kilo-object.webp"))
+```
+
+---
+
+# Maio de 2019...
+
+.pull-left[
+```{r, echo=FALSE,eval=TRUE, out.width="100%"}
+knitr::include_graphics(here::here("figs", "kilo-object.webp"))
+```
+]
+
+
+---
+
+# Maio de 2019...
+
+.pull-left[
+```{r, echo=FALSE,eval=TRUE, out.width="100%"}
+knitr::include_graphics(here::here("figs", "kilo-object.webp"))
+knitr::include_graphics(here::here("figs", "new-kg.png"))
+```
+]
+
+--
+
+.pull-right[
+
+.bg-washed-green.b--dark-green.ba.bw2.br3.shadow-5.ph4.mt5[
+"it is something that scientists and engineers everywhere in the world — and even aliens on other worlds — could match precisely, without having to carry a scale to Paris to check it"
+
+.tr[
+— Wolfgang Ketterle - MIT - Nobel
+]]
+
+]
+
+---
+class: inverse, middle, center
+
+# O quilo biológico
+
+
+--
+
+### A unidade fundamental da biologia
+???
+
+---
+
+# Holótipos: o Le Grand Quilo dos Biólogos
+
+.center[
+.pull-left[
+```{r, echo=FALSE,eval=TRUE, out.width="90%"}
+knitr::include_graphics(here::here("figs", "holotype-ex.png"))
+```
+
+```{r, echo=FALSE,eval=TRUE, out.width="90%"}
+knitr::include_graphics(here::here("figs", "holotype-3.jpeg"))
+```
+]
+]
+
+.center[
+.pull-right[
+```{r, echo=FALSE,eval=TRUE, out.width="90%"}
+knitr::include_graphics(here::here("figs", "holotype-squid.jpeg"))
+```
+
+```{r, echo=FALSE,eval=TRUE, out.width="70%"}
+knitr::include_graphics(here::here("figs", "dino1-holotype.png"))
+```
+]
+
+]
+
+
+---
+class: inverse, middle, center
+
+# Onde estão os holótipos? 
+
+--
+
+## Quem são os detentores do saber biológico?
+
+???
+um quilo nem sempre precisa ser checado, mas uma espécie, por mais comum que seja, sempre sucita dúvidas sobre sua identidade... Estamos sempre nos perguntando, o que será isso? Será que os tipos primários estão acessíveis para esse tipo de checagem básica que interfere em quase tudo o resto em bio?
+
+---
+class: inverse, middle, center
+
+# Um exemplo da Paleontologia: o icônico caso do *Ubirajara jubatus*
+
+```{r, echo=FALSE,eval=TRUE,out.width="100%"}
+knitr::include_graphics(here::here("figs", "ubirajara-jubatus.webp"))
+```
+
+???
+O primeiro dinossauro não aviário com penas descoberto na América do Sul!
+
+---
+
+# Um exemplo da Paleontologia: o icônico caso do *Ubirajara jubatus*
+
+
+
+.bg-washed-green.b--dark-green.ba.bw2.br3.shadow-5.ph4.mt5[
+"..é um holótipo, [...] é uma peça única que serviu de base para a primeira descrição, a descrição original"
+
+.tr[
+— Juan Cisneros para G1 portal de notícias - jun/2023
+]]
+
+--
+
+.center[
+```{r, echo=FALSE, eval=TRUE, out.width="70%"}
+knitr::include_graphics(here::here("figs", "trip-to-germany.png"))
+```
+]
+
+---
+class: inverse, middle, center
+
+## Onde estão os holótipos (das espécies atuais)?
+
+--
+
+> *"A espécie de hoje é o Ubirajara de amanhã"*
+
+
+--
+
+# Um estudo sobre **distribuição do conhecimento biológico fundamental** no tempo e espaço
+
+---
+
+# A distribuição de tipos primários de peixes no mundo
+
+
+```{r, echo=FALSE, eval=TRUE}
+knitr::include_graphics(here::here("figs", "catalog-pic.png"))
+```
+
+???
+Destrinchamos o catálogo de peixes mantidos pela univerisade da california, sendo a principal referencia em taxonomia no mundo
+
+---
+
+# A distribuição de tipos primários de peixes no mundo
+
+```{r, echo=FALSE, eval=TRUE, out.width="40%"}
+knitr::include_graphics(here::here("figs", "A-mexicanus.png"))
+```
+
+
+```{r, echo=FALSE, eval=TRUE, out.width="100%"}
+knitr::include_graphics(here::here("figs", "catalog-search.png"))
+```
+
+---
+
+# A distribuição de tipos primários de peixes no mundo
+
+.pull-left[
+```{r, echo=FALSE,eval=TRUE,out.width="100%"}
+knitr::include_graphics(here::here("figs", "method-data.png"))
+```
+]
+
+.pull-right[
+- Registro do **local de amostragem** do **tipo primário** (holótipo, lectótipo, neótipo e síntipos)
+
+]
+
+---
+
+# A distribuição de tipos primários de peixes no mundo
+
+.pull-left[
+```{r, echo=FALSE,eval=TRUE,out.width="100%"}
+knitr::include_graphics(here::here("figs", "method-data2.png"))
+```
+]
+
+.pull-right[
+- Registro do **local de amostragem** do **tipo primário** (holótipo, lectótipo, neótipo e síntipos)
+
+- Registro do **museu** que abriga o **tipo primário**
+
+- Mais de **26 mil** espécies válidas de **peixes de água doce e salobra**
+
+- Caracterização da distribuição no **tempo** e **espaço**
+
+]
+
+---
+
+# O fluxo dos tipos no tempo e espaço
+
+.center[
+```{r, echo=FALSE, eval=TRUE, out.width="60%"}
+knitr::include_graphics(here::here("figs", "WB-regions.png"))
+```
+]
+
+--
+
+```{r, echo=FALSE, eval=TRUE, out.width="100%"}
+knitr::include_graphics(here::here("figs", "flow-1.png"))
+```
+
+---
+
+# O fluxo dos tipos no tempo e espaço
+
+.center[
+```{r, echo=FALSE, eval=TRUE, out.width="60%"}
+knitr::include_graphics(here::here("figs", "WB-regions.png"))
+```
+]
+
+--
+
+```{r, echo=FALSE, eval=TRUE, out.width="100%"}
+knitr::include_graphics(here::here("figs", "flow-2.png"))
+```
+
+---
+
+# A distribuição de tipos primários de peixes no mundo: quem é quem na fila do pão
+
+.pull-left[
+```{r, echo=FALSE,eval=TRUE,out.width="100%", fig.retina=3}
+knitr::include_graphics(here::here("figs", "scheme-DC.png"))
+```
+]
+
+.pull-right[
+- Regiões com maior **concentração total** de tipos primários (O acumulador)
+
+- Regiões com alta **taxa de contribuição local** de tipos primários (O recebedor)
+]
+
+---
+
+# A distribuição de tipos primários de peixes no mundo: quem é quem na fila do pão
+
+
+.pull-left[
+```{r, echo=FALSE,eval=TRUE,out.width="100%", fig.retina=3}
+knitr::include_graphics(here::here("figs", "scheme-DR.png"))
+```
+]
+
+.pull-right[
+- Regiões com maior **concentração total** de tipos primários (O acumulador)
+
+- Regiões com alta/baixa **taxa de contribuição local** de tipos primários (O recebedor)
+
+- Regiões com alta/baixa **taxa de retenção** de tipos primários (O protetor)
+
+]
+
+---
+
+# Quem é quem na fila do peixe
+
+.center[
+```{r, echo=FALSE,eval=TRUE,out.width="60%", fig.retina=3}
+knitr::include_graphics(here::here("figs", "scatterplot-scheme1.png"))
+```
+]
+
+---
+
+# Quem é quem na fila do peixe
+
+.middle[
+.center[
+```{r, echo=FALSE, eval=TRUE, out.width="100%"}
+knitr::include_graphics(here::here("figs", "scatterplot-1.png"))
+```
+]
+]
+
+--
+
+.middle[
+.center[
+```{r, echo=FALSE, eval=TRUE, out.width="100%"}
+knitr::include_graphics(here::here("figs", "scatterplot-2.png"))
+```
+]
+]
+---
+
+# A diversidade local é bem representada nos museus? Turnover nativo e tipos
+
+.center[
+```{r, echo=FALSE, eval=TRUE, out.width="23%"}
+knitr::include_graphics(here::here("figs", "scheme-turnover-native.png"))
+```
+]
+
+???
+Aqui vai o esquema explicando o que se trata a análise
+
+---
+
+# A diversidade local é bem representada nos museus?
+
+.center[
+```{r, echo=FALSE, eval=TRUE, out.width="53%"}
+knitr::include_graphics(here::here("figs", "scheme-turnover-all.png"))
+```
+]
+
+---
+
+# A diversidade local é bem representada nos museus?
+
+.middle[
+.center[
+```{r, echo=FALSE, eval=TRUE, out.width="100%"}
+knitr::include_graphics(here::here("figs", "turnover-native-types.png"))
+```
+]
+]
+
+---
+
+# A diversidade local é bem representada nos museus?
+
+.middle[
+.center[
+```{r, echo=FALSE, eval=TRUE, out.width="100%"}
+knitr::include_graphics(here::here("figs", "map-turnover-combine2.png"))
+```
+]
+]
+
+???
+Maps with beta diversity analysis
+---
+
+# O que explica a distribuição do conhecimento no mundo?
+## Número total de tipos
+
+.middle[
+.center[
+```{r, echo=FALSE, eval=TRUE, out.width="100%"}
+knitr::include_graphics(here::here("figs", "model-total-nbt.png"))
+```
+]
+]
+
+---
+
+# O que explica a distribuição do conhecimento no mundo?
+
+### Retenção, contribuição local e turnover
+
+.middle[
+.center[
+```{r, echo=FALSE, eval=TRUE, out.width="55%"}
+knitr::include_graphics(here::here("figs", "model-turnover-nbt.png"))
+```
+]
+]
+
+---
+class: inverse, middle, center
+
+# Implicações: os detentores do saber
+
+---
+
+# Ética e legalidade
+
+.pull-left[
+
+### Protocolo de Nagoya
+```{r, echo=FALSE, eval=TRUE, out.width="70%"}
+knitr::include_graphics(here::here("figs", "nagoya-protocol.png"))
+```
+]
+
+--
+
+.pull-right[
+
+### Expedição Thayer
+```{r, echo=FALSE, eval=TRUE, out.width="60%"}
+knitr::include_graphics(here::here("figs", "mcz_thayer_expedition_fish.png"))
+knitr::include_graphics(here::here("figs", "thayer1.jpg"))
+
+```
+]
+
+---
+
+# Ética e legalidade
+
+.center[
+```{r, echo=FALSE, eval=TRUE, out.width="60%"}
+knitr::include_graphics(here::here("figs", "omar-fernandez.png"))
+```
+
+]
+
+--
+
+.center[
+```{r, echo=FALSE, eval=TRUE, out.width="50%"}
+knitr::include_graphics(here::here("figs", "decreto-1990.png"))
+```
+
+```{r, echo=FALSE, eval=TRUE, out.width="70%"}
+knitr::include_graphics(here::here("figs", "flow-2.png"))
+```
+
+]
+
+---
+class: inverse, middle, center
+
+# Desenvolvimento da ciência
+
+--
+
+Esforço de coleta x Posse do tipo primário
+
+---
+
+# Descoberta de novas espécies
+
+.pull-left[
+```{r, echo=FALSE, eval=TRUE, out.width="100%"}
+knitr::include_graphics(here::here("figs", "carvalho-etal-2022.png"))
+```
+]
+
+.pull-right[
+```{r, echo=FALSE, eval=TRUE, out.width="100%"}
+knitr::include_graphics(here::here("figs", "moura-jetz.png"))
+```
+]
+
+
+---
+
+# Padrões ecológicos
+
+## LTG - Gradiente latitudinal taxonômico
+
+.pull-left[
+```{r, echo=FALSE, eval=TRUE, out.width="100%"}
+knitr::include_graphics(here::here("figs", "Pennel-freman-tree.png"))
+
+knitr::include_graphics(here::here("figs", "diniz-filhoetal-frontiers.png"))
+
+```
+]
+
+--
+
+.pull-right[
+```{r, echo=FALSE,eval=TRUE, out.width="100%"}
+knitr::include_graphics(here::here("figs", "diniz-filho-fig1.png"))
+```
+
+]
+
+---
+class: inverse, middle, center
+
+# O que fazer?
+
+--
+
+.pull-left[
+```{r, echo=FALSE,eval=TRUE, out.width="90%"}
+knitr::include_graphics(here::here("figs", "new-kg.png"))
+```
+]
+
+.pull-right[
+```{r, echo=FALSE,eval=TRUE, out.width="90%"}
+knitr::include_graphics(here::here("figs", "chapman-science.png"))
+```
+]
+
+
+---
+
+# Algumas iniciativas
+
+.pull-left[
+```{r, echo=FALSE, eval=TRUE}
+knitr::include_graphics(here::here("figs", "reflora-brasil.png"))
+knitr::include_graphics(here::here("figs", "herbario-virtual.png"))
+```
+
+]
+
+--
+
+.middle[
+.rigth[
+.pull-right[
+```{r, echo=FALSE, eval=TRUE, out.width="70%"}
+knitr::include_graphics(here::here("figs", "nagoya-protocol.png"))
+```
+
+```{r, echo=FALSE, eval=TRUE, out.width="100%"}
+knitr::include_graphics(here::here("figs", "decreto-1990.png"))
+```
+
+]
+]
+
+]
+
+---
+
+# Algumas iniciativas
+
+### Repatriações
+
+.center[
+```{r, echo=FALSE, eval=TRUE, out.width="80%"}
+knitr::include_graphics(here::here("figs", "ubirajara-expo-cariri.jpeg"))
+```
+]
+
+
+---
+class: inverse, middle, center
+
+# Acúmulo do conhecimento
+
+--
+
+.center[
+```{r, echo=FALSE, eval=TRUE, out.width="80%"}
+knitr::include_graphics(here::here("figs", "british-museum-contested.png"))
+```
+]
+
+--
+
+.center[
+```{r, echo=FALSE, eval=TRUE, out.width="80%"}
+knitr::include_graphics(here::here("figs", "peixes-brasil.png"))
+```
+]
+
+
+???
+Muito similar a qualquer processo de acúmulo material 
+---
+
+class: inverse, middle, center
+
+## Colaboradores
+
+<img style="border-radius: 70%;" src="https://www.abc.org.br/wp-content/uploads/2017/04/jos%C3%A9-alexandre.jpg" width="150px"/> <img style="border-radius: 70%;" src="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K2530919A5" width="100px"/>
+<img style="border-radius: 70%;" src="https://brunomioto.com/figures/bruno.png" width="100px"/>
+
+José Alexandre Diniz-Filho | Livia Frateles | Bruno Mioto
+
+Manoela Marinho
+
+Emanuel Neuhaus
+
+Matheus Lima
+
+Aline Richter
+
+Wefferson Graça
+
+Tiago Freitas
+
+Bruno Eleres
+
+Liuyoung Ding
+
+---
+
+# (not so) Fun facts
+
+.pull.left[
+```{r, echo=FALSE, eval=TRUE, out.width="50%"}
+knitr::include_graphics(here::here("figs", "fun-facts-salminus.png"))
+```
+
+```{r, echo=FALSE, eval=TRUE, out.width="50%"}
+knitr::include_graphics(here::here("figs", "museum-paris.jpeg"))
+```
+
+]
+
+
