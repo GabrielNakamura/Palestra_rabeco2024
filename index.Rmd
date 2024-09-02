@@ -394,18 +394,6 @@ knitr::include_graphics(here::here("figs", "scatterplot-2.png"))
 ```
 ]
 ]
----
-
-# A diversidade local é bem representada nos museus? Turnover nativo e tipos
-
-.center[
-```{r, echo=FALSE, eval=TRUE, out.width="23%"}
-knitr::include_graphics(here::here("figs", "scheme-turnover-native.png"))
-```
-]
-
-???
-Aqui vai o esquema explicando o que se trata a análise
 
 ---
 
@@ -676,13 +664,18 @@ knitr::include_graphics(here::here("figs", "preprint_ecoevo.png"))
 ]
 
 ---
+class: inverse, middle, center
+
+# Quais as soluções práticas para redistribuição mais equitável do conhecimento?
+
+---
 
 class: inverse, middle, center
 
 ## Colaboradores
 
 <img style="border-radius: 70%;" src="https://www.abc.org.br/wp-content/uploads/2017/04/jos%C3%A9-alexandre.jpg" width="150px"/> <img style="border-radius: 70%;" src="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K2530919A5" width="100px"/>
-<img style="border-radius: 70%;" src="https://brunomioto.com/figures/bruno.png" width="100px"/>
+<img style="border-radius: 70%;" src="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K8024597P0" width="100px"/>
 
 José Alexandre Diniz-Filho | Livia Frateles | Bruno Mioto
 
