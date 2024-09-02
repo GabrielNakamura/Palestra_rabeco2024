@@ -465,22 +465,12 @@ class: inverse, middle, center
 
 ---
 
-# Ética e legalidade
+# Consequências: desenvolvimento do conhecimento
 
-.pull-left[
-
-### Protocolo de Nagoya
-```{r, echo=FALSE, eval=TRUE, out.width="70%"}
-knitr::include_graphics(here::here("figs", "nagoya-protocol.png"))
-```
-]
-
---
-
-.pull-right[
+.center[
 
 ### Expedição Thayer
-```{r, echo=FALSE, eval=TRUE, out.width="60%"}
+```{r, echo=FALSE, eval=TRUE, out.width="40%"}
 knitr::include_graphics(here::here("figs", "mcz_thayer_expedition_fish.png"))
 knitr::include_graphics(here::here("figs", "thayer1.jpg"))
 
@@ -489,7 +479,7 @@ knitr::include_graphics(here::here("figs", "thayer1.jpg"))
 
 ---
 
-# Ética e legalidade
+# Consequências: gastos com pesquisa
 
 .center[
 ```{r, echo=FALSE, eval=TRUE, out.width="60%"}
@@ -514,7 +504,7 @@ knitr::include_graphics(here::here("figs", "flow-2.png"))
 ---
 class: inverse, middle, center
 
-# Desenvolvimento da ciência
+# Progresso científico e compreensão da natureza
 
 --
 
