@@ -121,7 +121,6 @@ knitr::include_graphics(here::here("figs", "new-kg.png"))
 ```
 ]
 
---
 
 .pull-right[
 
@@ -547,15 +546,9 @@ class: inverse, middle, center
 
 --
 
-.pull-left[
+.center[
 ```{r, echo=FALSE,eval=TRUE, out.width="90%"}
 knitr::include_graphics(here::here("figs", "new-kg.png"))
-```
-]
-
-.pull-right[
-```{r, echo=FALSE,eval=TRUE, out.width="90%"}
-knitr::include_graphics(here::here("figs", "chapman-science.png"))
 ```
 ]
 
