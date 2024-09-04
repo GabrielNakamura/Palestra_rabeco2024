@@ -139,12 +139,6 @@ class: inverse, middle, center
 
 # O quilo biológico
 
-
---
-
-### A unidade fundamental da biologia
-???
-
 ---
 
 # Holótipos: o Le Grand Quilo dos Biólogos
