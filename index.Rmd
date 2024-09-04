@@ -485,14 +485,9 @@ knitr::include_graphics(here::here("figs", "omar-fernandez.png"))
 --
 
 .center[
-```{r, echo=FALSE, eval=TRUE, out.width="50%"}
-knitr::include_graphics(here::here("figs", "decreto-1990.png"))
-```
-
 ```{r, echo=FALSE, eval=TRUE, out.width="70%"}
 knitr::include_graphics(here::here("figs", "flow-2.png"))
 ```
-
 ]
 
 ---
