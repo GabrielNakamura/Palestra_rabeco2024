@@ -331,8 +331,6 @@ knitr::include_graphics(here::here("figs", "scheme-DC.png"))
 ]
 
 .pull-right[
-- Regiões com maior **concentração total** de tipos primários (O acumulador)
-
 - Regiões com alta **taxa de contribuição local** de tipos primários (O recebedor)
 ]
 
@@ -348,7 +346,6 @@ knitr::include_graphics(here::here("figs", "scheme-DR.png"))
 ]
 
 .pull-right[
-- Regiões com maior **concentração total** de tipos primários (O acumulador)
 
 - Regiões com alta/baixa **taxa de contribuição local** de tipos primários (O recebedor)
 
@@ -529,8 +526,6 @@ knitr::include_graphics(here::here("figs", "diniz-filhoetal-frontiers.png"))
 
 ```
 ]
-
---
 
 .pull-right[
 ```{r, echo=FALSE,eval=TRUE, out.width="100%"}
